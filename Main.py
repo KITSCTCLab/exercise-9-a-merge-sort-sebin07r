@@ -4,7 +4,7 @@ def merge_sort(myList) -> None:
   if len(myList) > 1:
         mid = len(myList) // 2
         left = myList[:mid]
-        right = myList[mid]
+        right = myList[mid:]
 
         # Recursive call on each half
         merge_sort(left)
